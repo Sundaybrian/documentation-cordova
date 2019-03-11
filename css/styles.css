@@ -34,13 +34,11 @@ nav {
 }
 
 nav ul {
-
     padding: 8px;
 
 }
 
 nav ul li {
-    text-align: left;
     list-style: none;
     padding: 5px;
     border: 1px solid #777;
@@ -58,7 +56,7 @@ nav ul li:focus {
     border: 1px solid #ffffff;
     border-bottom: 3px solid #ffcc00;
     color: #fff;
-    transform: skew(-25deg);
+
 }
 
 nav ul li:hover a{
@@ -71,6 +69,7 @@ nav ul li a {
     cursor: pointer;
     color: #fff;
     display: block;
+    text-align: left;
 
 }
 
@@ -81,7 +80,7 @@ main {
 
 }
 
-main header {
+main h2 {
     color: black;
     font-size: 1.8em;
 
@@ -90,13 +89,16 @@ main header {
 main section {
     margin: 15px;
     text-align: left;
+    background: red;
+    padding: 5px;
 }
 
 main section article {
     margin: 15px;
-    color: #4d4e53;
+    text-align: left;
+    margin-bottom: 25px;
+    line-height: 1.85;
 }
-
 
 main section code {
     white-space: pre-wrap;
@@ -110,4 +112,42 @@ main section code {
     padding: 0.5em;
     background: #002b36;
     color: #839496;
+   
+}
+
+/* media queries */
+
+@media only screen and (max-width:768px){
+   
+nav {
+    position:absolute;
+    top:10px;
+    max-height: 270px;
+    width:100%;
+    z-index: 1;
+    border: none;
+    background-color: rgba(236, 229, 229, 0.911);  
+    padding: 15px;
+    margin: 0;
+}
+
+nav ul li{
+    text-align:left;
+}
+
+
+main{
+    position: relative;
+    top: 300px;
+    width: 100%;
+    margin:0 auto;
+    padding: 0;
+    z-index: 2;
+  
+}
+
+}
+
+@media only screen and (max-width:400px){
+    
 }
