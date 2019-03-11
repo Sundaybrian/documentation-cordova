@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-size: 16px;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -30,7 +29,8 @@ nav {
     background: #fff;
     overflow-y: auto;
     overflow-x: hidden;
-    background: #138FC2;
+    background-color: #ccc;
+    /* background: #138FC2; */
 }
 
 nav ul {
@@ -73,29 +73,38 @@ nav ul li a {
 
 }
 
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 main {
     margin-left: 320px;
-    padding: 10px;
     text-align: left;
+    
+}
 
+main header{
+    font-size: 1.9em;
 }
 
 main h2 {
     color: black;
-    font-size: 1.8em;
-
+    font-size: 1.2em;
+    
 }
 
 main section {
-    margin: 15px;
+    margin:0 auto;
+    padding: 10px;
     text-align: left;
-    background: red;
-    padding: 5px;
+    /* background: red; */
+    border-bottom:2px ridge #002b36;
 }
 
-main section article {
-    margin: 15px;
-    text-align: left;
+main section div {
+    /* margin: 10px; */
     margin-bottom: 25px;
     line-height: 1.85;
 }
@@ -142,9 +151,9 @@ main{
     width: 100%;
     margin:0 auto;
     padding: 0;
-    z-index: 2;
-  
+    z-index: 2;  
 }
+
 
 }
 

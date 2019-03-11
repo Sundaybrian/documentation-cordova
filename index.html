@@ -10,177 +10,478 @@
 </head>
 
 <body>
-    <header id="nav-header">
-        <nav>
-            <ul>
-                <li><a class="nav-section-heading" href="#introduction" id="">Introduction</a>
-                    <ul class="inner-links">
-                        <li><a href="#overview" id="">Overview</a></li>
-                        <li><a href="#architecture" id="">Architecture</a></li>
-                        <li><a href="#webview" id="">WebView</a></li>
-                        <li><a href="#plugins" id="">Plugins</a></li>
-                        <li><a href="#development_paths" id="">Development Paths</a></li>
-                        <li><a href="#installing_cordova" id="">Installing Cordova</a></li>
-                    </ul>
-                </li>
-                <li><a href="#create_plugins" id="">Create Apps</a>
-                    <ul class="inner-links">
-                        <li><a href="#create_first_app" id="">Create Your First App</a></li>
-                        <li><a href="#templates_apps" id="">Templates For Apps</a></li>
-                        <li><a href="#platform_support" id="">Platform Support</a></li>
-                
-                    </ul>
-                </li>
-                <li><a href="#develop_for_platforms" id="">Develop For Platforms</a>
-                    <ul class="inner-links">
-                        <li><a href="#android" id="">Android</a></li>
-                        <li><a href="#ios" id="">iOS</a></li>
-                        <li><a href="#windows" id="">Windows</a></li>
-                        <li><a href="#osx" id="">OS X</a></li>
-                        <li><a href="#manage_versions_platforms" id="">Manage Versions and Platforms </a></li>
-                
-                    </ul>
-                </li>
-                <li><a href="#create_plugins" id="">Create Plugins</a>
-                    <ul class="inner-links">
-                        <li><a href="#create_a_plugin" id="">Create a Plugin</a></li> 
-                    </ul>
-                
-                </li>
-                <li><a href="#advanced_topics" id="">Advanced Topics</a>
-                    <ul class="inner-links">
-                        <li><a href="#embed_cordova_native" id="">Embed Cordova in Native Apps</a></li>
-                        <li><a href="#next_steps" id="">Next Steps</a></li>
-                    </ul>
-                
-                </li>
-                <li><a href="#reference" id="">Reference</a>
-                    <ul class="inner-links">
-                        <li><a href="#config" id="">Config.xml</a></li>
-                        <li><a href="#events" id="">Events</a></li>
-                        <li><a href="#cli" id="">CLi</a></li>
-                    </ul>
-                </li>
-                <li><a href="#plugin_apis" id="">Plugin Api's</a>
-                    <ul class="inner-links">
-                        <li><a href="#battery" id="">Battery Status</a></li>
-                        <li><a href="#camera" id="">Camera</a></li>
-                        <li><a href="#device" id="">Device</a></li>
-                        <li><a href="#dialogs" id="">Dialogs</a></li>
-                        <li><a href="#file" id="">File</a></li>
-                        <li><a href="#geo-location" id="">Geolocation</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <nav id="navbar">
+        <header>Cordova Documentation</header>
+        <ul>
+            <li><a class="nav-links" href="#introduction" id="">Introduction</a>
+                <ul class="inner-links">
+                    <li><a href="#overview" id="">Overview</a></li>
+                    <li><a href="#architecture" id="">Architecture</a></li>
+                    <li><a href="#webview" id="">WebView</a></li>
+                    <li><a href="#plugins" id="">Plugins</a></li>
+                    <li><a href="#development_paths" id="">Development Paths</a></li>
+                    <li><a href="#installing_cordova" id="">Installing Cordova</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-links" href="#create_apps" id="">Create Apps</a>
+                <ul class="inner-links">
+                    <li><a href="#create_first_app" id="">Create Your First App</a></li>
+                    <li><a href="#templates_apps" id="">Templates For Apps</a></li>
+                    <li><a href="#platform_support" id="">Platform Support</a></li>
+
+                </ul>
+            </li>
+            <li><a class="nav-links" href="#develop_for_platforms" id="">Develop For Platforms</a>
+                <ul class="inner-links">
+                    <li><a href="#android" id="">Android</a></li>
+                    <li><a href="#ios" id="">iOS</a></li>
+                    <li><a href="#windows" id="">Windows</a></li>
+                    <li><a href="#osx" id="">OS X</a></li>
+                    <li><a href="#manage_versions_platforms" id="">Manage Versions and Platforms </a></li>
+
+                </ul>
+            </li>
+            <li><a class="nav-links" href="#create_plugins" id="">Create Plugins</a>
+                <ul class="inner-links">
+                    <li><a href="#create_a_plugin" id="">Create a Plugin</a></li>
+                </ul>
+
+            </li>
+            <li><a class="nav-links" href="#advanced_topics" id="">Advanced Topics</a>
+                <ul class="inner-links">
+                    <li><a href="#embed_cordova_native" id="">Embed Cordova in Native Apps</a></li>
+                    <li><a href="#next_steps" id="">Next Steps</a></li>
+                </ul>
+
+            </li>
+            <li><a class="nav-links" href="#reference" id="">Reference</a>
+                <ul class="inner-links">
+                    <li><a href="#config" id="">Config.xml</a></li>
+                    <li><a href="#events" id="">Events</a></li>
+                    <li><a href="#cli" id="">CLi</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-links" href="#plugin_apis" id="">Plugin Api's</a>
+                <ul class="inner-links">
+                    <li><a href="#battery" id="">Battery Status</a></li>
+                    <li><a href="#camera" id="">Camera</a></li>
+                    <li><a href="#device" id="">Device</a></li>
+                    <li><a href="#dialogs" id="">Dialogs</a></li>
+                    <li><a href="#file" id="">File</a></li>
+                    <li><a href="#geo-location" id="">Geolocation</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
 
     <main id="main-doc">
         <section class="main-section" id="introduction">
             <header>Introduction</header>
-            <article>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae similique vitae minus, dolorum
-                itaque sapiente natus enim assumenda dignissimos quae maiores dolorem mollitia voluptates delectus
-                ullam voluptatibus. Saepe, harum.
 
-              <code>
-                    function greeter(word){
-                    alert("heello"+" "+word);
-                    }
+            <div>
+                <h2 id="overview">Overview</h2>
 
-                    greeter("brian");
-                </code>
-        
-            </article>
+                <p>Apache Cordova is an open-source mobile development framework. It allows you
+                    to use standard web technologies - HTML5, CSS3, and JavaScript
+                    for cross-platform development. Applications execute within wrappers targeted
+                    to each platform, and rely on standards-compliant API bindings to
+                    access each device's capabilities such as sensors, data, network status, etc.</p>
+
+                <p>Use Apache Cordova if you are:</p>
+
+                <ul>
+                    <li>
+                        <p>a mobile developer and want to extend an application across more
+                            than one platform, without having to re-implement it with each
+                            platform's language and tool set.</p>
+                    </li>
+                    <li>
+                        <p>a web developer and want to deploy a web app that's packaged for
+                            distribution in various app store portals.</p>
+                    </li>
+                    <li>
+                        <p>a mobile developer interested in mixing native application
+                            components with <strong>WebView</strong> that can access
+                            device-level APIs, or if you want to develop a plugin interface
+                            between native and WebView components.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h2 id="architecture">Architecture</h2>
+
+                <p>There are several components to a cordova application. The following
+                    diagram shows a high-level view of the cordova application architecture.</p>
+
+                <p><img src="https://cordova.apache.org/static/img/guide/cordovaapparchitecture.png" alt=""></p>
+            </div>
+
+            <div>
+                <h2 id="webview">WebView</h2>
+
+                <p>The Cordova-enabled WebView may provide the application with its
+                    entire user interface. On some platforms, it can also be a component
+                    within a larger, hybrid application that mixes the WebView with native
+                    application components.
+                </p>
+
+                <h2>Web App</h2>
+
+                <p>This is the part where your application code resides. The application itself is
+                    implemented as a web page, by default a local file named <em>index.html</em>, that
+                    references CSS, JavaScript, images, media files, or other resources
+                    are necessary for it to run. The app executes in a <em>WebView</em> within the native
+                    application wrapper, which you distribute to app stores.</p>
+
+                <p>This container has a very crucial file <strong>config.xml</strong>
+                    file that provides information about the app and specifies parameters affecting how it
+                    works, such as whether it responds to orientation shifts.</p>
+            </div>
+
+
+
+            <div>
+                <h2 id="plugins">Plugins</h2>
+
+                <p>Plugins are an integral part of the cordova ecosystem. They provide
+                    an interface for Cordova and native components to communicate with each
+                    other and bindings to standard device APIs. This enables you to invoke native
+                    code from JavaScript.</p>
+
+                <p>Apache Cordova project maintains a set of plugins called the
+                    <strong>Core Plugins</strong>. These core
+                    plugins provide your application to access device capabilities such as
+                    battery, camera, contacts, etc.</p>
+
+
+                <p><strong>NOTE</strong>: When you create a Cordova project it does not have
+                    any plugins present. This is the new default behavior. Any plugins you
+                    desire, even the core plugins, must be explicitly added.</p>
+
+                <p>Cordova does not provide any UI widgets or MV* frameworks. Cordova provides
+                    only the runtime in which those can execute. If you wish to use UI widgets
+                    and/or an MV* framework, you will need to select those and include them in
+                    your application.</p>
+            </div>
+
+
+            <div>
+                <h2 id="development_paths">Development Paths</h2>
+
+                <p>Cordova provides you two basic workflows to create a mobile
+                    app. While you can often use either workflow to accomplish the same
+                    task, they each offer advantages:</p>
+
+                <ul>
+                    <li>
+                        <p><strong>Cross-platform (CLI) workflow</strong>: Use this workflow if you want your app
+                            to run on as many different mobile operating systems as possible,
+                            with little need for platform-specific development. This workflow
+                            centers around the <code>cordova</code> CLI. The CLI is a high-level tool that allows you
+                            to build projects
+                            for many platforms at once, abstracting away much of the functionality of
+                            lower-level shell scripts. The CLI copies a common set of web assets into
+                            subdirectories for each mobile platform, makes any necessary
+                            configuration changes for each, runs build scripts to generate
+                            application binaries. The CLI also provides a common interface to
+                            apply plugins to your app. <p>
+                    </li>
+                </ul>
+
+                <p><strong>NOTE</strong>: Once you switch from the CLI-based workflow to one centered
+                    around the platform-specific SDKs and shell tools, you can&#39;t go back.
+                    The CLI maintains a common set of cross-platform source code, which on
+                    each build it uses to write over platform-specific source code. To
+                    preserve any modifications you make to the platform-specific assets,
+                    you need to switch to the platform-centered shell tools, which ignore
+                    the cross-platform source code, and instead relies on the
+                    platform-specific source code.</p>
+
+            </div>
+
+            <div>
+                <h2 id="installing_cordova">Installing Cordova</h2>
+
+                <p>The installation of Cordova will differ depending on the workflow above
+                    you choose:</p>
+
+                <ul>
+                    <li>Cross-platform workflow</li>
+                    <li>Platform-centered workflow</li>
+                </ul>
+
+                <p>After installing Cordova, it is recommended that you review the
+                    <code>Develop for Platforms</code> section for the mobile platforms that you
+                    will be developing for. It is also recommended that you also review the
+                    <strong></strong> Privacy Guide</strong> and
+                    <strong>Security Guide</strong>.</p>
+
+            </div>
+        </section>
+
+        <section class="main-section" id="create_apps">
+            <header>Create Apps</header>
+
+            <div>
+                <h1 id="create_first_app">Create your first Cordova app</h1>
+
+                <p>This guide shows you how to create a JS/HTML Cordova application and deploy them to
+                    various native mobile platforms using the <code>cordova</code> command-line
+                    interface (CLI).</p>
+
+                <h2>Installing the Cordova CLI</h2>
+
+                <p>The Cordova command-line tool is distributed as an npm package.</p>
+
+                <p>To install the <code>cordova</code> command-line tool, follow these steps:</p>
+
+                <ol>
+                    <li>
+                        <p>Download and install <a href="https://nodejs.org/en/download/">Node.js</a>. On
+                            installation you should be able to invoke <code>node</code> and <code>npm</code> on your
+                            command line.</p>
+                    </li>
+                    <li>
+                        <p>**Optional** Download and install a <a href="http://git-scm.com/downloads">git client</a>,
+                            if you don't
+                            already have one. Following installation, you should be able to invoke <code>git</code>
+                            on your command line. The CLI uses it to download assets when they are referenced using a
+                            url to a git repo.</p>
+                    </li>
+                    <li>
+                        <p>Install the <code>cordova</code> module using <code>npm</code> utility of Node.js. The <code>cordova</code>
+                            module will automatically be downloaded by the <code>npm</code> utility.</p>
+                    </li>
+                </ol>
+
+
+                <p>The <code>-g</code> flag above tells <code>npm</code> to install <code>cordova</code> globally.
+                    Otherwise
+                    it will be installed in the <code>node_modules</code> subdirectory of the current
+                    working directory.</p>
+
+                <p>Following installation, you should be able to run
+                    <code>cordova</code> on the command line with no arguments and it should
+                    print help text.</p>
+
+            </div>
+
+            <div>
+
+                <h1 id="templates">Cordova App Templates <small>Use a Template</small></h1>
+
+                <p>Templates allow you to use preexisting code to jumpstart your project. </p>
+
+                <p><img src="https://cordova.apache.org/static/img/guide/cli/template.png" alt=""></p>
+
+                <p>Find a template to create your app from by seaching for the keyword <code>cordova:template</code> on
+                    <a href="https://www.npmjs.com/search?q=cordova%3Atemplate">npm</a>. You can also use local
+                    templates on your computer, or a Git repository.</p>
+
+                <p>After locating a template you wish to use. Create your project using that template, by specifying
+                    the <code>--template</code> flag during the <code>create</code> command, followed by your template
+                    source.</p>
+                <p>After succesfully using a template to create your project, you'll want to indicate the platforms
+                    that you intend to target with your app. Go into your project folder and <a href="http://cordova.apache.org/docs/en/latest/guide/cli/index.html#add-platforms">add
+                        platforms</a>.</p>
+
+            </div>
+
         </section>
 
         <section class="main-section" id="create_plugins">
             <header>Create Plugins</header>
-            <article>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae similique vitae minus, dolorum
-                itaque sapiente natus enim assumenda dignissimos quae maiores dolorem mollitia voluptates delectus
-                ullam voluptatibus. Saepe, harum.
 
-                <code>
-                    function greeter(word){
-                    alert("heello"+" "+word);
-                    }
+            <div>
+                    <h1>Plugin Development Guide</h1>
 
-                    greeter("brian");
-                </code>
-            </article>
+                    <p>A <em>plugin</em> is a package of injected code that allows the Cordova webview within
+                    which the app renders to communicate with the native platform on
+                    which it runs.  Plugins provide access to device and platform
+                    functionality that is ordinarily unavailable to web-based apps. All
+                    the main Cordova API features are implemented as plugins, and many
+                    others are available that enable features such as bar code scanners,
+                    NFC communication, or to tailor calendar interfaces. You can search for available plugins
+                    on <a href="https://cordova.apache.org/plugins/">Cordova Plugin Search page</a>.</p>
+                    
+                    <p>Plugins comprise a single JavaScript interface along with
+                    corresponding native code libraries for each supported platform.  In essence
+                    this hides the various native code implementations behind a common
+                    JavaScript interface.</p>
+                    
+                    <p>This section steps through a simple <em>echo</em> plugin that passes a string from
+                    JavaScript to the native platform and back, one that you can use as a
+                    model to build far more complex features.  This section discusses the
+                    basic plugin structure and the outward-facing JavaScript interface.
+                    For each corresponding native interface, see the list at the end of
+                    this section.</p>
+                    
+                    <p>In addition to these instructions, when preparing to write a plugin it
+                    is best to look over <a href="http://cordova.apache.org/contribute">existing plugins</a>
+                    for guidance.</p>
+            </div>
+
+            <div>
+                    <h2>Validating a Plugin using Plugman</h2>
+
+                    <p>You can use the <code>plugman</code> utility to check whether the plugin installs
+                    correctly for each platform.  Install <code>plugman</code> with the following
+                    <a href="http://nodejs.org/">node</a> command:</p>
+                   
+            </div>
         </section>
 
         <section class="main-section" id="develop_for_platforms">
             <header>Develop For Platforms</header>
-            <article>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae similique vitae minus, dolorum
-                itaque sapiente natus enim assumenda dignissimos quae maiores dolorem mollitia voluptates delectus
-                ullam voluptatibus. Saepe, harum.
+            <div>
+                    <h1>Android Plugin Development Guide</h1>
 
-                <code>
-                    function greeter(word){
-                    alert("heello"+" "+word);
-                    }
+                    <p>This section provides details for how to implement native plugin code
+                    on the Android platform. Before reading this, see the <a href="https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html">Plugin Development Guide</a>
+                    for an overview of the plugin&#39;s structure and its common JavaScript
+                    interface. This section continues to demonstrate the sample <em>echo</em>
+                    plugin that communicates from the Cordova webview to the native
+                    platform and back.  For another sample, see also the comments in
+                    <a href="https://github.com/apache/cordova-android/blob/master/framework/src/org/apache/cordova/CordovaPlugin.java">CordovaPlugin.java</a>.</p>
+                    
+                    <p>Android plugins are based on Cordova-Android, which is built from an
+                    Android WebView with a native bridge. The native portion of an Android plugin
+                    consists of at least one Java class that extends the <code>CordovaPlugin</code> class and
+                    overrides one of its <code>execute</code> methods.</p>
+            </div>
 
-                    greeter("brian");
-                </code>
-            </article>
+            <div>
+                    <h2>Adding Dependency Libraries</h2>
+
+                    <p>If your Android plugin has extra dependencies, they must be listed in the
+                    <code>plugin.xml</code> in one of two ways.</p>
+                    
+                    <p>The preferred way is to use the <code>&lt;framework /&gt;</code> tag (see the
+                    <a href="https://cordova.apache.org/docs/en/latest/plugin_ref/spec.html#framework">Plugin Specification</a> for more details).
+                    Specifying libraries in this manner allows them to be resolved via Gradle&#39;s
+                    <a href="https://docs.gradle.org/current/userguide/dependency_management.html">Dependency Management logic</a>. This allows commonly used
+                    libraries such as <em>gson</em>, <em>android-support-v4</em>, and <em>google-play-services</em> to be
+                    used by multiple plugins without conflict.</p>
+                    
+                    <p>The second option is to use the <code>&lt;lib-file /&gt;</code> tag to specify the location of
+                    a jar file (see the <a href="https://cordova.apache.org/docs/en/latest/plugin_ref/spec.html#lib-file">Plugin Specification</a> for
+                    more details). This approach should only be used if you are sure that no other
+                    plugin will be depending on the library you are referencing (e.g. if the library
+                    is specific to your plugin). Otherwise, you risk causing build errors for users
+                    of your plugin if another plugin adds the same library. It is worth noting that
+                    Cordova app developers are not necessarily native developers, so native platform
+                    build errors can be especially frustrating.</p>
+            </div>
+
         </section>
 
         <section class="main-section" id="advanced_topics">
-            <header>advanced Topics</header>
-            <article>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae similique vitae minus, dolorum
-                itaque sapiente natus enim assumenda dignissimos quae maiores dolorem mollitia voluptates delectus
-                ullam voluptatibus. Saepe, harum.
+            <header>Advanced Topics</header>
+            <div>
+                    <h1 id="">Embedding WebViews</h1>
 
-                <code>
-                    function greeter(word){
-                    alert("heello"+" "+word);
-                    }
-
-                    greeter("brian");
-                </code>
-            </article>
+                    <p>Cordova applications are ordinarily implemented as a browser-based
+                    <em>WebView</em> within the native mobile platform. This section shows how,
+                    for supporting platforms, to create your own WebView components that
+                    make full use of Cordova APIs. You can then deploy these Cordova
+                    application components along with native components in a hybrid
+                    application.</p>
+                    
+                    <p>To deploy a WebView, you need to be familiar with each native
+                    programming environment. The following provides instructions for
+                    supported platforms:</p>
+                    
+                    <ul>
+                    <li><a href="https://cordova.apache.org/docs/en/latest/guide/platforms/android/webview.html">Android WebViews</a></li>
+                    <li><a href="https://cordova.apache.org/docs/en/latest/guide/platforms/ios/webview.html">iOS WebViews</a></li>
+                    </ul>
+            </div>
         </section>
 
         <section class="main-section" id="plugin_apis">
             <header>Plugin Api's</header>
-            <article>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae similique vitae minus, dolorum
-                itaque sapiente natus enim assumenda dignissimos quae maiores dolorem mollitia voluptates delectus
-                ullam voluptatibus. Saepe, harum.
+            <div>
+                    <h1 id="">cordova-plugin-battery-status</h1>
 
-                <code>
-                    function greeter(word){
-                    alert("heello"+" "+word);
+                    <p>This plugin provides an implementation of an old version of the <a href="http://www.w3.org/TR/2011/WD-battery-status-20110915/">Battery Status Events API</a>. It adds the following three events to the <code>window</code> object:</p>
+                    
+                    <ul>
+                    <li>batterystatus</li>
+                    <li>batterycritical</li>
+                    <li>batterylow</li>
+                    </ul>
+                    
+                    <p>Applications may use <code>window.addEventListener</code> to attach an event listener for any of the above events after the <code>deviceready</code> event fires.</p>
+                    
+                    <h2>Installation</h2>
+                    <div class="highlight"><pre><code class="language-" data-lang="">cordova plugin add cordova-plugin-battery-status
+                    </code></pre></div>
+                    <h2>Status object</h2>
+                    
+                    <p>All events in this plugin return an object with the following properties:</p>
+                    
+                    <ul>
+                    <li><strong>level</strong>: The battery charge percentage (0-100). <em>(Number)</em></li>
+                    <li><strong>isPlugged</strong>: A boolean that indicates whether the device is plugged in. <em>(Boolean)</em></li>
+                    </ul>
+                    
+                    <h2>batterystatus event</h2>
+                    
+                    <p>Fires when the battery charge percentage changes by at least 1 percent, or when the device is plugged in or unplugged. Returns an <a href="#status-object">object</a> containing battery status.</p>
+                    
+                    <h3>Example</h3>
+                    <code>window.addEventListener("batterystatus", onBatteryStatus, false);
+                    
+                    function onBatteryStatus(status) {
+                        console.log("Level: " + status.level + " isPlugged: " + status.isPlugged);
                     }
-
-                    greeter("brian");
-                </code>
-            </article>
+                    </code></pre>
+                    <h3>Supported Platforms</h3>
+                    
+                    <ul>
+                    <li>iOS</li>
+                    <li>Android</li>
+                    <li>Windows</li>
+                    <li>Browser (Chrome, Firefox, Opera)</li>
+                    </ul>
+                    
+            </div>
         </section>
 
         <section class="main-section" id="reference">
             <header>Reference</header>
-            <article>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae similique vitae minus, dolorum
-                itaque sapiente natus enim assumenda dignissimos quae maiores dolorem mollitia voluptates delectus
-                ullam voluptatibus. Saepe, harum.
+            <div>
+                    <h1>Config.xml</h1>
 
-                <code>
-                    function greeter(word){
-                    alert("heello"+" "+word);
-                    }
-
-                    greeter("brian");
-                </code>
-            </article>
+                    <p>Config.xml is a global configuration file that controls many aspects
+                    of a cordova application's behavior. This
+                    platform-agnostic XML file is arranged based on the W3C's <a href="http://www.w3.org/TR/widgets/">Packaged
+                    Web Apps (Widgets)</a> specification, and
+                    extended to specify core Cordova API features, plugins, and
+                    platform-specific settings.</p>
+                    
+                    <p>For projects created with the Cordova CLI described in <a href="https://cordova.apache.org/docs/en/latest/guide/cli/index.html">The
+                    Command-Line Interface</a>, this file can be found in the top-level
+                    directory:</p>
+                   <pre><code>app/config.xml
+                    </code></pre>
+                    <p>Note that before version 3.3.1-0.2.0, the file existed at <code>app/www/config.xml</code>,
+                    and that having it here is still supported.</p>
+                    
+                    <p>When using the CLI to build a project, versions of this file are
+                    passively copied into various <code>platforms/</code> subdirectories.
+                    For example:</p>
+                  <pre><code >app/platforms/ios/AppName/config.xml
+                    app/platforms/android/res/xml/config.xml
+                    </code></pre>
+            
+            </div>
             All the documentation in this page is taken from <a href="https://cordova.apache.org/">Apache Cordova</a>
         </section>
 
-       
+
     </main>
 
 </body>
